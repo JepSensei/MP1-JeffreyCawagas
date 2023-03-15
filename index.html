@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KapeTann Coffee Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Start of Home Section -->
+    
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-light-subtle opacity-75"
+    >
+      <div class="container-fluid">
+        <a
+          href="https://www.facebook.com/kapetanncoffee"
+          class="navbar-brand mb-0 h1"
+        >
+          <img class="navbar-logo" src="/images/kapetannLogo.jpg" alt="" />
+          <strong>Kape Tann</strong>
+        </a>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#" class="bx bx-home nav-link active fw-bold"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutSection" class="bx bxs-group nav-link fw-bold"> About </a>
+            </li>
+            <li class="nav-item">
+              <a href="#menuHeader" class="bx bx-food-menu nav-link fw-bold"> Menu </a>
+            </li>
+            <li class="nav-item">
+              <a href="#mainGallery" class="bx bx-photo-album nav-link fw-bold"> Gallery </a>
+            </li>
+            <li class="nav-item">
+              <a href="#blogs" class="bx bxl-blogger nav-link fw-bold"> Blogs </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contactMe" class="bx bxs-contact nav-link fw-bold">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="bx bx-shopping-bag nav-link dropdown-toggle fw-bold"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                
+              >
+                Items
+              </a>
+              <ul class="dropdown-menu dropdownItem" aria-labelledby="navbarDropdown">
+                <li><a href="coffeeBeans1.html" class="dropdown-item">Coffee Beans</a></li>
+                <li>
+                  <a href="#" class="dropdown-item">Coffee Concentrates</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item"
+                    >Coffee Brewing Equipments</a
+                  >
+                </li>
+                <li><a href="#" class="dropdown-item">Cupcakes</a></li>
+              </ul>
+            </li>
+            <li class="listToggler mx-5 align-bottom my-1">
+              <button class="modeToggler" onclick="myFunction()"></button>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto" id="searchBar">
+            <input type="text" class="form-control me-2" />
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+        
+        <!-- <form class="d-flex">
+          <input type="text" class="form-control me-2" />
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form> -->
+      </div>
+    </nav>
+
+    <div id="hero">
+      <div data-aos="fade-right" class="hero-container--1">
+        <h1>Welcome mga kap!</h1>
+      </div>
+      <div class="signboard">
+        <p>
+          We are <strong>OPEN: </strong>
+          <span
+            data-aos="zoom-in-right"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-sine"
+          >
+            4:00pm to 9:00pm</span
+          >
+        </p>
+        <img class="backgroundMain" src="images/mainBackgroundjpg.jpg" alt="" />
+        
+      </div>
+    </div>
+
+    <!-- End of Home Section -->
+    <!-- Start of About Section -->
+
+    <div class="aboutSection" id="aboutSection">
+        <div class="container h2 text-center my-5" id="aboutHeader">About</div>
+           <div class="h3 justify-content-center" id="aboutContent">
+              The About page is an important part of any website and often the
+            first page a customer will visit. An effective About page should
+            provide a brief overview of your coffee shop, including its mission
+            and values, the products and services you offer, and any unique
+            features that set your coffee shop apart from the competition. Your
+            About page should also include photos and videos, a link to your
+            social media accounts, and contact information. If your coffee shop
+            has a unique story, you may want to share that as well.
+          </div>
+    </div>
+
+    <!-- End of About Section -->
+
+    <!-- Start of Menu Section -->
+
+    <div id="menuSection">
+    <div class="container" id="menuHeader">
+      <div class="row text-center">
+        <div class="h2 col-12 p-5">KAPE TANN COFFEE MENU</div>
+      </div>
+    </div>
+    <div class="mainMenu">
+      <div class="row mb-5 text-center">
+        <div class="h4 col-4" id="mainFlavor1">ESPRESSO</div>
+        <div class="h4 col-4">HOT</div>
+        <div class="h4 col-4">ICED</div>
+      </div>
+      <div class="row mb-3 text-center">
+        <div class="h5 col-4"></div>
+        <div class="h5 col-2">8 OZ</div>
+        <div class="h5 col-2">12 OZ</div>
+        <div class="h5 col-2">16 OZ</div>
+        <div class="h5 col-2">22 OZ</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor1">AMERICANO (Espresso mixed with Hot water)</div>
+        <div class="h6 col-2">&#8369; 40.00</div>
+        <div class="h6 col-2">&#8369; 45.00</div>
+        <div class="h6 col-2">&#8369; 50.00</div>
+        <div class="h6 col-2">&#8369; 60.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor2">CAFFE LATTE (Steamed milk with Espresso)</div>
+        <div class="h6 col-2">&#8369; 55.00</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 60.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+      </div>
+      <div class="row my-5 text-center">
+        <div class="h4 col-4" id="mainFlavor2">FLAVORED ESPRESSO (Milk Espresso & flavored sauce</div>
+        <div class="h4 col-4">HOT</div>
+        <div class="h4 col-4">ICED</div>
+      </div>
+      <div class="row mb-3 text-center">
+        <div class="h5 col-4"></div>
+        <div class="h5 col-2">8 OZ</div>
+        <div class="h5 col-2">12 OZ</div>
+        <div class="h5 col-2">16 OZ</div>
+        <div class="h5 col-2">22 OZ</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor3">SALTED CARAMEL</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 80.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor4">CAFE MOCHA</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 80.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor5">SPANISH LATTE</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 80.00</div>
+      </div>
+      <div class="row my-5 text-center">
+        <div class="h4 col-4" id="mainFlavor3">POUR OVER (Brewed Kapeng Barako)</div>
+        <div class="h4 col-4">HOT</div>
+        <div class="h4 col-4">ICED</div>
+      </div>
+      <div class="row mb-3 text-center">
+        <div class="h5 col-4"></div>
+        <div class="h5 col-2">8 OZ</div>
+        <div class="h5 col-2">12 OZ</div>
+        <div class="h5 col-2">16 OZ</div>
+        <div class="h5 col-2">22 OZ</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor6">AMERICANO</div>
+        <div class="h6 col-2">&#8369; 35.00</div>
+        <div class="h6 col-2">&#8369; 40.00</div>
+        <div class="h6 col-2">&#8369; 45.00</div>
+        <div class="h6 col-2">&#8369; 55.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor7">CAFFE LATTE</div>
+        <div class="h6 col-2">&#8369; 50.00</div>
+        <div class="h6 col-2">&#8369; 60.00</div>
+        <div class="h6 col-2">&#8369; 55.00</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+      </div>
+      <div class="row my-5 text-center">
+        <div class="h4 col-4"  id="mainFlavor4">FLAVORED KAPENG BARAKO (Brewed Kapeng Barako with syrup)</div>
+        <div class="h4 col-4">HOT</div>
+        <div class="h4 col-4">ICED</div>
+      </div>
+      <div class="row  mb-3 text-center">
+        <div class="h5 col-4"></div>
+        <div class="h5 col-2">8 OZ</div>
+        <div class="h5 col-2">12 OZ</div>
+        <div class="h5 col-2">16 OZ</div>
+        <div class="h5 col-2">22 OZ</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor8">VIETNAMESE COFFEE</div>
+        <div class="h6 col-2">&#8369; 60.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor9">CLASSIC CARAMEL</div>
+        <div class="h6 col-2">&#8369; 60.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor10">MACADAMIA NUT</div>
+        <div class="h6 col-2">&#8369; 60.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor11">FRENCH VANILLA</div>
+        <div class="h6 col-2">&#8369; 60.00</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 65.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+      </div>
+      <div class="row my-5 text-center">
+        <div class="h4 col-4"  id="mainFlavor5">NON-CAFFEINATED</div>
+        <div class="h4 col-4">HOT</div>
+        <div class="h4 col-4">ICED</div>
+      </div>
+      <div class="row  mb-3 text-center">
+        <div class="h5 col-4"></div>
+        <div class="h5 col-2">8 OZ</div>
+        <div class="h5 col-2">12 OZ</div>
+        <div class="h5 col-2">16 OZ</div>
+        <div class="h5 col-2">22 OZ</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor12">CHOCOLATE LATTE (Dark/White)</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+        <div class="h6 col-2">&#8369; 85.00</div>
+      </div>
+      <div class="row text-center">
+        <div class="h6 col-4" id="menuFlavor13">SALTED CARAMEL LATTE</div>
+        <div class="h6 col-2">&#8369; 70.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+        <div class="h6 col-2">&#8369; 75.00</div>
+        <div class="h6 col-2">&#8369; 85.00</div>
+      </div>
+    </div>
+  </div>
+
+    <!-- End of Menu Section -->
+
+    <!-- Start of Gallery Section -->
+
+    <div class="container text-center" id="mainGallery">
+      <div class="h2 text-center my-5" id="galleryHeader">The <span class="galleryHeader2">Gallery</span></div>
+
+      <!-- desktop full size -->
+
+      <div class="row--desktop row">
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 text-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample1.jpg">
+              <img src="/images/gallerySample1.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample2.jpg">
+              <img src="/images/gallerySample2.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample3.jpg">
+              <img src="/images/gallerySample3.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample4.jpg">
+              <img src="/images/gallerySample4.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample5.jpg">
+              <img src="/images/gallerySample5.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample6.jpg">
+              <img
+                src="/images/gallerySample6.jpg"
+                alt="Photo"
+                width="600"
+                height="400"
+              />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row--desktop row my-5">
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample8.jpg">
+              <img src="/images/gallerySample8.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample9.jpg">
+              <img src="/images/gallerySample9.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample10.jpg">
+              <img src="/images/gallerySample10.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample11.jpg">
+              <img src="/images/gallerySample11.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample12.jpg">
+              <img
+                src="/images/gallerySample12.jpg"
+                alt="Photo"
+                width="600"
+                height="400"
+              />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- desktop size 760px-1199px-->
+
+      <div class="container">
+      <div class="row--mobile--1 row my-5">
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row--mobile--1 row my-5">
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row--mobile--1 row my-5">
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3 col-sm-4 col-6 my-5 align-content-center">
+          <div class="gallery">
+            <a target="_blank" href="images/gallerySample7.jpg">
+              <img src="/images/gallerySample7.jpg" alt="Photo" />
+              <div class="description">Lorem ipsum dolor sit amet.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <a href="gallery1.html">
+        <button
+          type="button"
+          class="btn btn-light btn-outline-primary btn-lg my-5"
+        >
+          See more
+        </button>
+      </a>
+    </div>
+
+    <!-- Start of Blogs Section -->
+    <section id="blogs">
+      <div class="container text-center" id="blogs">
+        <div class="h2 text-center my-5" id="blogsHeader">
+          Latest <span id="blogsHeader2">Blogs</span>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="card" id="card">
+              <img
+                src="images/blogs/blogs1.jpg"
+                class="card-img-top"
+                alt="blogs"
+              />
+              <div class="card-body" id="cardBody">
+                <h5 class="card-title">IS COFFEE BAD FOR YOU? OR IS COFFEE A SUPERFOOD?</h5>
+                <p class="card-text">
+                  These are some of the sentences we've all heard throughout our lives. They have been going 
+                  around since the very first discovery of coffee back in 500AD when a young ...
+                </p>
+                <a href="https://coffeebeansdelivered.com.au/blogs/news/is-coffee-bad-for-you-or-is-coffee-a-superfood" class="btn btn-primary">Read more...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="card" id="card">
+              <img
+                src="images/blogs/blogs2.jpg"
+                class="card-img-top"
+                alt="blogs"
+              />
+              <div class="card-body" id="cardBody">
+                <h5 class="card-title">HOW TO CLEAN ANY ESPRESSO MACHINE!</h5>
+                <p class="card-text">
+                  It doesn't matter what coffee machine you own. These methods are UNIVERSAL! If you FOLLOW 
+                  these steps you will greatly increase your espresso taste as well increase ...
+                </p>
+                <a href="https://coffeebeansdelivered.com.au/blogs/news/how-to-clean-any-espresso-machine" class="btn btn-primary">Read more...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="card" id="card">
+              <img
+                src="images/blogs/blogs3.jpg"
+                class="card-img-top"
+                alt="blogs"
+              />
+              <div class="card-body" id="cardBody">
+                <h5 class="card-title">WHAT COFFEE FILTER IS RIGHT FOR YOUR BREW?</h5>
+                <p class="card-text">
+                  Even the TYPE OF FILTER matters when it comes to getting the best out of  your 
+                  brew. So check out which filter style works best for your brew below!
+                </p>
+                <a href="https://coffeebeansdelivered.com.au/blogs/news/what-coffee-filter-is-right-for-your-brew" class="btn btn-primary">Read more...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="card" id="card">
+              <img
+                src="images/blogs/blogs4.jpg"
+                class="card-img-top"
+                alt="blogs"
+              />
+              <div class="card-body" id="cardBody">
+                <h5 class="card-title">5 THINGS YOU CAN DO WITH YOUR USED COFFEE GRINDS</h5>
+                <p class="card-text">
+                  We love a good excuse to drink more coffee, and by using the waste properly
+                   you can be doing so much more with your brew after you drink it!
+                </p>
+                <a href="https://coffeebeansdelivered.com.au/blogs/news/5-things-you-can-do-with-your-used-coffee-grinds" class="btn btn-primary">Read more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="blogs.html">
+          <button
+            type="button"
+            class="btn btn-light btn-outline-primary btn-lg my-5"
+          >
+            See more
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- End of Blogs Section -->
+    <!-- Start of Contact me Section -->
+
+    <div class="contactMe" id="contactMe">
+
+    <!-- max width monitor -->
+
+      <div class="row text-center p-5">
+        <div class="col-7 w-5" style="text-align:left">
+          <p class="h4 fw-semibold">FOOTER CONTENT</p>
+          <p class="h6" id="contactMe1">What is the footer of a website? The footer is the section of content at the 
+            very bottom of a web page. It typically contains a copyright notice, link to a privacy 
+            policy, sitemap, logo, contact information, social media icons, and an email sign-up form.
+          </p>
+          <p class="h6" id="contactMe2">Keep the footer consistent with the overall theme of the website. Make sure that 
+            the words used in the footer are clear and umabiguious. The terms used should give an idea of 
+            what it is about before the users even click on it. If you have a lot of information in the 
+            footer, try to group some items into categories.
+          </p>
+        </div>
+        <div class="col-1 w-2 bx" id="footerHome">
+          <a href="#"><p class="h4 fw-semibold">HOME</p></a>
+          <a href="#aboutSection"><p class="h6 mb-2" id="footerAbout">ABOUT</p></a> 
+          <a href="#menuHeader"><p class="h6 ">MENU</p></a> 
+          <a href="#mainGallery"><p class="h6 mb-2">GALLERY</p></a> 
+          <a href="#blogs"><p class="h6 mb-2">BLOGS</p></a> 
+        </div>
+        <div class="col-2 w-2" id="footerAddress">
+          <p class="h4 fw-semibold">ADDRESS</p>
+          <p class="h6 bx bx-home mb-2" id="address">Laoag, San Marcelino, Zambales</p>
+          <p class="h6 bx bxl-messenger mb-2" id="footerAddress2">facebook.com/kapetanncoffee</p>
+          <p class="h6 bx bx-envelope mb-2"  id="footerAddress3">abfiguerrez18@gmail.com</p>
+          <p class="h6 bx bx-phone mb-2">0917-134-1422</p>
+        </div>
+        <div class="col-2 w-2">
+          <p class="h4 fw-semibold" id="socialMedia">FOLLOW US</p>
+          <div class="socMed1">
+          <a href="https://www.facebook.com/kapetanncoffee"><img src="images/icons/facebook.png" alt=""></a>
+          <a href="#"><img src="images/icons/instagram.png" alt=""></a>
+        </div>
+        <div class="socMed2">
+          <a href="#"><img src="images/icons/294655_twitter_icon.png" alt=""></a>
+          <a href="#"><img src="images/icons/linkedin.png" alt=""></a>
+        </div>
+        <div class="socMed3">
+          <a href="#"><img src="images/icons/youtube.png" alt=""></a>
+          <a href="#"><img src="images/icons/306931_inbox_mail_message_email_icon.png" alt=""></a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1079px Monitor -->
+
+    <div class="contacts" id="contacts">
+
+    <div class="row  text-center">
+      <div class="col-6 w-5" style="text-align:left">
+        <p class="h4 fw-semibold">FOOTER CONTENT</p>
+        <p class="h6" id="contactMe1">What is the footer of a website? The footer is the section of content at the 
+          very bottom of a web page. It typically contains a copyright notice, link to a privacy 
+          policy, sitemap, logo, contact information, social media icons, and an email sign-up form.
+        </p>
+        <p class="h6" id="contactMe2">Keep the footer consistent with the overall theme of the website. Make sure that 
+          the words used in the footer are clear and umabiguious. The terms used should give an idea of 
+          what it is about before the users even click on it. If you have a lot of information in the 
+          footer, try to group some items into categories.
+        </p>
+      </div>
+      <div class="col-6 w-2 text-center" id="footerAddress">
+        <p class="h4 fw-semibold">ADDRESS</p>
+        <p class="h6 bx bx-home mb-2" id="address">Laoag, San Marcelino, Zambales</p>
+        <p class="h6 bx bxl-messenger mb-2" id="footerAddress2">facebook.com/kapetanncoffee</p>
+        <p class="h6 bx bx-envelope mb-2"  id="footerAddress3">abfiguerrez18@gmail.com</p>
+        <p class="h6 bx bx-phone mb-2">0917-134-1422</p>
+      </div>
+    </div>
+    <div class="row text-center contacts--item">
+      <div class="col-6 w-2 bx" id="footerHome">
+        <a href="#"><p class="h4 fw-semibold pt-4">HOME</p></a>
+        <a href="#aboutSection"><p class="h6 footerAbout" id="footerAbout">ABOUT</p></a> 
+        <a href="#menuHeader"><p class="h6 footerMenu">MENU</p></a> 
+        <a href="#mainGallery"><p class="h6 footerGallery">GALLERY</p></a> 
+        <a href="#blogs"><p class="h6 footerBlogs">BLOGS</p></a> 
+      </div>
+    <div class="col-6">
+      <p class="h4 fw-semibold pt-4" id="socialMedia">FOLLOW US</p>
+      <div class="socMed--1">
+      <a href="https://www.facebook.com/kapetanncoffee"><img src="images/icons/facebook.png" alt=""></a>
+      <a href="#"><img src="images/icons/instagram.png" alt=""></a>
+    </div>
+    <div class="socMed--2">
+      <a href="#"><img src="images/icons/294655_twitter_icon.png" alt=""></a>
+      <a href="#"><img src="images/icons/linkedin.png" alt=""></a>
+    </div>
+    <div class="socMed--3">
+      <a href="#"><img src="images/icons/youtube.png" alt=""></a>
+      <a href="#"><img src="images/icons/306931_inbox_mail_message_email_icon.png" alt=""></a>
+    </div>
+    </div>
+  </div>
+  </div>
+
+    <!-- End of Contact me Section -->
+    <!-- Start of footer Section -->
+
+    <div class="text-center p-4 footerSection">
+      &#169;2023 Copyright:
+      <a href="https://www.facebook.com/idontdeservedthis" class="text-reset fw-bold">JEP CAWAGAS</a>
+    </div>
+
+    <!-- End of footer Section -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      function myFunction() {
+         var element = document.body;
+         element.classList.toggle("darkmode");
+      }
+      </script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

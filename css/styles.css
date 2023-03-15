@@ -1,0 +1,474 @@
+body {
+    height: 2000px;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.darkmode {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    height: 100px;
+    font-size: 20px;
+    image-rendering: smooth;
+    position: fixed;
+}
+
+
+.dropdownItem {
+    background-color: #F8EDE3;
+}
+
+.nav-item {
+    padding-left: 5px;
+    text-align: center;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 50px;
+    /* flex-wrap: wrap;
+    display: flex; */
+    border-radius: 30px;
+}
+
+.backgroundMain {
+    background-size: auto;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.modeToggler {
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    /* top: 120px;
+    left: 20px; */
+    background: url('/images/icons8-light-bulb-64.png');
+    background-size: cover;
+    image-rendering: smooth;
+    /* position: fixed; */
+    
+}
+
+#hero {
+    position: relative;
+    font-size: 60px;
+    color: #000;
+    padding-top: 0;
+}
+
+.hero-container--1 h1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.705);
+    left: 50%;
+    top: 40vh;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    padding: 0 20px;
+
+}
+
+.signboard p {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.705);
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 20px;
+    
+}
+
+/* -----about section--------- */
+
+#aboutHeader {
+    border-top: 2px solid gold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#aboutContent {
+    padding: 0 50px 0 50px;
+    text-indent: 60px;
+}
+
+/* ------Menu Section------ */
+
+#menuHeader {
+    border-top: 2px solid gold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+.mainMenu {
+    background-color: rgba(248, 237, 227, 0.858);
+    margin: 0 60px 0 60px;
+    padding: 30px 0 30px 0;
+
+}
+
+#menuFlavor1, #menuFlavor2, #menuFlavor3,
+#menuFlavor4, #menuFlavor5, #menuFlavor6,
+#menuFlavor7, #menuFlavor8, #menuFlavor9,
+#menuFlavor10, #menuFlavor11, 
+#menuFlavor12, #menuFlavor13 {
+    text-align: left;
+    padding-left: 8%;
+}
+
+#mainFlavor1, #mainFlavor2, #mainFlavor3, 
+#mainFlavor4, #mainFlavor5 {
+    text-align: left;
+    padding-left: 8%;
+}
+
+#menuSection {
+    background-color: rgba gold;
+}
+
+/* ------Gallery Section------- */
+
+/* .row--mobile--1 {
+    display: none;
+} */
+
+#galleryHeader {
+    border-top: 2px solid gold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.gallery {
+    margin: 7px;
+    border: 2px solid gold;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 3px solid #000;
+}
+
+.gallery img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.galleryHeader2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.description {
+    padding: 15px;
+    text-align: center;
+}
+
+/* -------Blogs Section------ */
+
+#blogsHeader {
+    border-top: 2px solid gold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#blogsHeader2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#card {
+    border: 2px solid gold;
+}
+
+#card img {
+    height: 335px;
+    image-resolution: from-image;
+}
+
+/* Contactme X footer */
+
+.contactMe {
+    background-color: #F8EDE3;
+}
+
+#contactMe1 {
+    padding-top: 30px;
+    text-indent:1cm;
+}
+
+#contactMe2 {
+    padding-top: 10px;
+    text-indent:1cm;
+}
+
+#footerAbout {
+   padding-top: 30px;
+}
+
+#footerHome {
+    text-align: left;
+}
+
+#footerHome a {
+    text-decoration: none;
+    color: #000;
+}
+
+#footerAddress {
+    text-align:left;
+}
+
+#footerAddress2 {
+    display:block;
+}
+
+#footerAddress3 {
+    display:block;
+}
+
+#address {
+    margin-top: 30px;
+}
+
+.socMed1 img {
+    object-fit: cover;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.socMed2 img {
+    object-fit: cover;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+.socMed3 img {
+    object-fit: cover;
+    height: 25px;
+    width: 25px;
+}
+
+.footerSection {
+    background-color: #D0B8A8;
+    color: #fff;
+    
+}
+
+/* -------------media query------------ */
+
+@media only screen and (min-width: 1199px) {
+    .row--mobile--1 {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width:1198px) and (min-width: 770px)  {
+    .row--desktop {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 769px) {
+    .row--mobile--1 {
+        display: none;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 1079px) {
+    .contactMe {
+        display: none;
+    }
+
+    .contacts {
+        padding-left: 50px;
+        background-color: #F8EDE3;  
+    }
+
+    .footerAbout, .footerMenu, .footerGallery, .footerBlogs {
+        display: inline;
+        margin-top: 30px;
+
+    }
+
+    #footerMenu {
+        overflow: hidden;
+        white-space: pre-wrap;
+    }
+
+
+    .socMed--1 img {
+        object-fit: cover;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .socMed--2 img {
+        object-fit: cover;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .socMed--3 img {
+        object-fit: cover;
+        height: 25px;
+        width: 25px;
+    }
+
+    .socMed--1, .socMed--2, .socMed--3 {
+        display: inline;
+
+        
+    }
+    
+    .footerSection {
+        padding-top: 10px;
+    }
+}
+
+    @media only screen and (min-width: 1080px) {
+        .contacts {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .navbar-toggler {
+            position: absolute;
+            top: 30px;
+            right: 60px;
+        }
+    }
+
+    @media only screen and (max-width: 1060px) {
+        .hero-container--1 h1 {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            left: 50%;
+            top: 40vh;
+            transform: translate(-50%, -50%);
+            font-weight: 1000;
+            font-size: 70px;
+            font-family: 'Dancing Script', cursive;
+            padding: 0 30px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .signboard p {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 0 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            
+        }
+    }
+
+    @media only screen and (max-width: 945px) {
+        .hero-container--1 h1 {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            left: 50%;
+            top: 40vh;
+            transform: translate(-50%, -50%);
+            font-weight: 1000;
+            font-size: 50px;
+            font-family: 'Dancing Script', cursive;
+            padding: 0 30px;
+            white-space: nowrap;
+            overflow: auto;
+        }
+
+        .signboard p {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            font-size: 50px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 0 20px;
+            white-space: nowrap;
+            overflow: auto;
+            
+        }
+    }
+
+    @media only screen and (max-width: 790px) {
+        .hero-container--1 h1 {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            left: 50%;
+            top: 45vh;
+            transform: translate(-50%, -50%);
+            font-weight: 1000;
+            font-size: 30px;
+            font-family: 'Dancing Script', cursive;
+            padding: 0 30px;
+            white-space: nowrap;
+            overflow: auto;
+        }
+
+        .signboard p {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            font-size: 30px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 0 20px;
+            white-space: nowrap;
+            overflow: auto;
+            
+        }
+    }
+
+    @media only screen and (max-width: 490px) {
+        .hero-container--1 h1 {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            left: 50%;
+            top: 46.5vh;
+            transform: translate(-50%, -50%);
+            font-weight: 1000;
+            font-size: 20px;
+            font-family: 'Dancing Script', cursive;
+            padding: 0 30px;
+            white-space: nowrap;
+            overflow: scroll;
+        }
+
+        .signboard p {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.705);
+            font-size: 20px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 0 20px;
+            white-space: nowrap;
+            overflow: scroll;
+            
+        }
+    }
