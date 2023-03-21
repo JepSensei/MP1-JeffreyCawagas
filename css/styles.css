@@ -185,6 +185,7 @@ body {
 
 #card {
     border: 2px solid gold;
+    align-items: stretch;
 }
 
 #card img {
@@ -265,29 +266,6 @@ body {
 }
 
 /* -------------media query------------ */
-
-@media only screen and (min-width: 1199px) {
-    .row--mobile--1 {
-        display: none;
-    }
-    
-}
-
-@media only screen and (max-width:1198px) and (min-width: 770px)  {
-    .row--desktop {
-        display: none;
-    }
-    
-}
-
-@media only screen and (max-width: 769px) {
-    .row--mobile--1 {
-        display: none;
-    }
-
-
-    
-}
 
 @media only screen and (max-width: 1079px) {
     .contactMe {
