@@ -14,7 +14,7 @@ body {
     outline: solid  gold;
     outline-style: double;
     outline-width: 3px;
-    outline-offset: -40px;
+    outline-offset: -30px;
 }
 
 #coffeeBeans {
@@ -22,6 +22,31 @@ body {
     padding-bottom: 100px;
 }
 
+
+
 #coffeeBeansHeader2 {
     font-family: 'Dancing Script', cursive;
+}
+
+#button-home {
+    width: 80px;
+}
+
+.card {
+    background-color: gold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    border-color: 10px solid gold;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 350px) {
+    .card {
+        height: 500px;
+        width: 300px;
+        margin: auto;
+    }
 }
