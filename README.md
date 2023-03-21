@@ -6,11 +6,11 @@
 
 ## Sitemap
 
-## Wireframe LFD Link: 
+## Wireframe LFD Link: [LFD Design](https://www.figma.com/file/0dJf9grMMmGr6QiQOtvPOT/HFD-1440p?node-id=0%3A1&t=Tuvrgpret8WzCpxh-1 "Link to my Github Page")
 
-## Wireframe HFD Link: 
+## Wireframe HFD Link: [HFD Design](https://www.figma.com/file/0dJf9grMMmGr6QiQOtvPOT/HFD-1440p?node-id=0%3A1&t=Tuvrgpret8WzCpxh-1 "Link to my Github Page")
 
-## Github Page Link: 
+## Github Page Link: [GitHub Page](https://github.com/JepSensei "Link to my Github Page")
 
 ## Two weeks prior of the mini-project
 
