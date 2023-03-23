@@ -194,7 +194,7 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-#card {
+.card {
     border: 2px solid gold;
     align-items: stretch;
     box-shadow: 11px 10px 33px -3px rgba(0,0,0,0.75);
@@ -202,12 +202,12 @@ body {
     -moz-box-shadow: 11px 10px 33px -3px rgba(0,0,0,0.75);
 }
 
-#card img {
+.card img {
     height: 335px;
     image-resolution: from-image;
 }
 
-#cardBody {
+.cardBody {
     background-color: #F8EDE3;
 }
 
