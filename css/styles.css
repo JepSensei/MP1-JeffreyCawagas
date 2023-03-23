@@ -2,6 +2,7 @@ body {
     height: 2000px;
     background-color: #F7F6F2;
     overflow-x: hidden;
+    font-family: 'Rock Salt', cursive;
 }
 
 .navbar {
@@ -89,6 +90,10 @@ body {
     padding-bottom: 20px;
 }
 
+#aboutHeader2 {
+    font-family: 'Dancing Script', cursive;
+}
+
 #aboutContent {
     padding: 0 50px 0 50px;
     text-indent: 60px;
@@ -127,6 +132,10 @@ body {
 
 #menuSection {
     background-color: rgba gold;
+}
+
+#menuHeader2 {
+    font-family: 'Dancing Script', cursive;
 }
 
 /* ------Gallery Section------- */
@@ -169,7 +178,6 @@ body {
     padding: 15px;
     text-align: center;
     color: #000;
-    font-family: 'Rock Salt', cursive;
     background-color: #f8ede3;
 }
 
@@ -276,7 +284,6 @@ body {
 
 .footerSection a {
    text-decoration: none;
-   font-family: 'Rock Salt', cursive;
    padding-left: 10px;
 }
 
