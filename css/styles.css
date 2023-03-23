@@ -12,6 +12,9 @@ body {
     position: fixed;
 }
 
+button a {
+    color: #fff;
+}
 
 .dropdownItem {
     background-color: #F8EDE3;
