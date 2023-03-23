@@ -4,11 +4,6 @@ body {
     overflow-x: hidden;
 }
 
-.darkmode {
-    background-color: #000;
-    color: #fff;
-}
-
 .navbar {
     height: 100px;
     font-size: 20px;
