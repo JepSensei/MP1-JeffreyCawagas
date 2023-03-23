@@ -217,12 +217,12 @@ body {
     background-color: #F8EDE3;
 }
 
-#contactMe1 {
+.contactMe1 {
     padding-top: 30px;
     text-indent:1cm;
 }
 
-#contactMe2 {
+.contactMe2 {
     padding-top: 10px;
     text-indent:1cm;
 }
@@ -231,28 +231,30 @@ body {
    padding-top: 30px;
 }
 
-#footerHome {
+.footerHome {
     text-align: left;
+
 }
 
-#footerHome a {
+.footerHome a {
     text-decoration: none;
     color: #000;
+    font-family: 'Rock Salt', cursive;
 }
 
-#footerAddress {
+.footerAddress {
     text-align:left;
 }
 
-#footerAddress2 {
+.footerAddress2 {
     display:block;
 }
 
-#footerAddress3 {
+.footerAddress3 {
     display:block;
 }
 
-#address {
+.address {
     margin-top: 30px;
 }
 
