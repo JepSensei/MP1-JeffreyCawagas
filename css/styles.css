@@ -2,7 +2,10 @@ body {
     height: 2000px;
     background-color: #F7F6F2;
     overflow-x: hidden;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Rock Salt',  cursive;
+    object-fit: cover;
+    font-display: optional;
+    rel
 }
 
 .navbar {
@@ -16,8 +19,12 @@ button a {
     color: #fff;
 }
 
-.dropdownItem {
-    background-color: #F8EDE3;
+.dropdown-menu {
+    background-color: #fff;
+}
+
+.dropdown-item:hover {
+    color: gold;
 }
 
 .nav-item {
@@ -293,6 +300,7 @@ button a {
    padding-left: 10px;
 }
 
+
 /* -------------media query------------ */
 
 @media only screen and (max-width: 1079px) {
@@ -389,7 +397,7 @@ button a {
         }
     }
 
-    @media only screen and (max-width: 945px) {
+    @media only screen and (max-width: 1010px) {
         .hero-container--1 h1 {
             position: absolute;
             background-color: rgba(255, 255, 255, 0.705);
@@ -419,7 +427,7 @@ button a {
         }
     }
 
-    @media only screen and (max-width: 790px) {
+    @media only screen and (max-width: 850px) {
         .hero-container--1 h1 {
             position: absolute;
             background-color: rgba(255, 255, 255, 0.705);
@@ -449,7 +457,7 @@ button a {
         }
     }
 
-    @media only screen and (max-width: 490px) {
+    @media only screen and (max-width: 525px) {
         .hero-container--1 h1 {
             position: absolute;
             background-color: rgba(255, 255, 255, 0.705);
@@ -474,7 +482,7 @@ button a {
             text-align: center;
             padding: 0 20px;
             white-space: nowrap;
-            overflow: scroll;
+            overflow: hidden;
             
         }
     }
